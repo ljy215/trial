@@ -5,7 +5,7 @@ from email.mime.text import MIMEText
 from googleapiclient.discovery import build
 from google_oauth import get_google_credentials
 
-resend.api_key = "re_GYLcqPbx_EYNVmV6dHAW6DPd5xMxrWhMv"
+resend.api_key = "you_resend_key"
 
 def send_email(to_email, subject, content):
     try:
